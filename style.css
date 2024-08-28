@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #FFFFFF;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+h2,
+h3,
+p, 
+a, button {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background: #222222;
+    max-width: 1600px;
+   
+    margin: 0 auto;
+
+}
+.headercontent{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headercontent button {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.nav_left {
+    display: flex;
+    justify-content: space-between;
+    gap: 41px;
+}
+.nav_right{
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+
+}
+
+.main_begin{
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+    background: #F1E4E6;
+    display: flex;
+}
+.label{
+    margin-top: 290px;
+    margin-left: 64px; 
+
+}
+
+.label h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    color: #222222;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.label h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #222222;
+    text-align: left;
+}
+.label h3 span {
+    color: #F16D7F
+}
+
+.offer{                                                                                             
+    margin-bottom: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 30px;
+
+}
+
+.offer h2{
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: white;
+
+}
+.offer h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+
+    color: #F16D7F;
+
+}
+
+.for_women{
+    background-image: url(./img/for_woman.png);
+}
+.for_men{
+    background-image: url(./img/for_men.png);
+
+}
+.for_kids{
+    background-image: url(./img/for_kids.png);
+
+}
+.accesouies{
+background-image: url(./img/accesouries.png);
+}
