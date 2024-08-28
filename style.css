@@ -20,6 +20,8 @@ img {
 
 h2,
 h3,
+h4,
+h5,
 p, 
 a, button {
     font-family: "Lato", sans-serif;
@@ -72,7 +74,8 @@ a, button {
 .label{
     margin-top: 290px;
     margin-left: 64px; 
-
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
 }
 
 .label h1 {
@@ -103,6 +106,16 @@ a, button {
 
 }
 
+.darkening{
+    background: #211616B2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .offer h2{
     font-size: 16px;
     line-height: 120%;
@@ -120,17 +133,113 @@ a, button {
 
 }
 
+
 .for_women{
     background-image: url(./img/for_woman.png);
+    width: 360px;
+    height: 260px;
+
 }
 .for_men{
     background-image: url(./img/for_men.png);
+    width: 360px;
+    height: 260px;
 
 }
 .for_kids{
     background-image: url(./img/for_kids.png);
+    width: 360px;
+    height: 260px;
 
 }
 .accesouies{
 background-image: url(./img/accesouries.png);
+    width: 100%;
+    height: 180px;
 }
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.products h2 {
+    font-size: 30px;
+    line-height: 120%;
+    max-width: 190px;
+    color: #222222;
+    margin-bottom: 6px;
+}
+
+.products h3 {
+    font-size: 14px;
+    line-height: 120%;
+    max-width: 336px;
+    color: #9F9F9F;
+    margin-bottom: 46px;
+}
+
+
+.product_panel{
+    margin-bottom: 46px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 25px;
+    column-gap: 30px;
+}
+
+.card{
+    max-width: 360px;
+    max-height: 587px;
+}
+
+.card_description{
+    padding: 24px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    opacity: 0px;
+    max-width: 100%;
+    background-color: #F8F8F8;
+}
+
+.card_description h4{
+    font-size: 13px;
+    line-height: 120%;
+    text-align: left;
+    color: black;
+    max-width: 149px;
+}
+
+.card_description p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 120%;
+    text-align: left;
+    color: #5D5D5D;
+    max-width: 315px;
+}
+
+.card_description h5{
+    font-size: 16px;
+    line-height: 120%;
+    text-align: left;
+    max-width: 53px;
+}
+
+.products button{
+    margin-bottom: 60px;
+    border: 1px solid #FF6A6A;
+    padding: 15px 39px;
+    font-size: 16px;
+    line-height: 120%;
+    /* max-width: 212px; */
+    color: #F26376;
+    background: none;
+    cursor: pointer;
+}
+
