@@ -27,6 +27,9 @@ a, button {
     font-family: "Lato", sans-serif;
     font-weight: 400;
 }
+
+
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -90,14 +93,18 @@ a, button {
     position: relative;
 
 }
-
+/* 
 .main_begin_leftside{
-    /* display: block;
+    display: block;
     height: 764px;
     width: 800px; */
- /* width: 100; */
+ /* width: 100;
 
 
+} */
+
+.main_begin_leftside img{
+    height: 100%;
 }
 
 .label{
@@ -152,6 +159,20 @@ a, button {
     text-align: left;
     color: #000000;
 }
+
+.menu button{
+    border: none;
+    cursor: pointer;
+    opacity: 0px;
+    background: white;
+    max-width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+
+}
+
 .menu h4 {
     font-size: 14px;
     line-height: 120%;
@@ -171,6 +192,10 @@ a, button {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.hidden{
+    display: none;
 }
 
 .offer{                                 
@@ -383,9 +408,6 @@ background-image: url(./img/accesouries.png);
     
 }
 
-.subcard img{
-    
-}
 
 .subcard h2{
     font-size: 20px;
@@ -571,6 +593,7 @@ background-image: url(./img/accesouries.png);
 
     .main_begin{
         max-width: 768px;
+        max-height: 368px;
         margin: 0 auto;
         margin-bottom: 65px;
         background: #F1E4E6;
@@ -578,9 +601,9 @@ background-image: url(./img/accesouries.png);
     }
     .main_begin_leftside{
         max-width: 368px;
+        
     }
-
-
+    
     .label{
         margin-top: 138px;
         margin-left: 39px; 
