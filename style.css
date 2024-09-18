@@ -331,7 +331,6 @@ background-image: url(./img/accesouries.png);
     display: flex;
     flex-direction: column;
     gap: 16px;
-    opacity: 0;
     max-width: 100%;
     background-color: #F8F8F8;
 }
