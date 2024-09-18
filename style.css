@@ -35,7 +35,7 @@ a, button {
     margin: 0 auto;
 }
 .header{
-    padding: 0 240px;
+    padding: 0;
     background: #222222;
     max-width: 1600px;
     height: 75px;
@@ -58,6 +58,7 @@ a, button {
     display: flex;
     justify-content: space-between;
     gap: 41px;
+    margin-left: 230px;
 }
 .nav_right{
     display: flex;
@@ -65,6 +66,7 @@ a, button {
     gap: 33px;
     height: 37px;
     position: relative;
+    margin-right: 230px;
 
 }
 
@@ -93,15 +95,6 @@ a, button {
     position: relative;
 
 }
-/* 
-.main_begin_leftside{
-    display: block;
-    height: 764px;
-    width: 800px; */
- /* width: 100;
-
-
-} */
 
 .main_begin_leftside img{
     height: 100%;
@@ -368,7 +361,7 @@ background-image: url(./img/accesouries.png);
 }
 
 .Browse{
-    margin-bottom: 60px;
+    margin-bottom: 95px;
     border: 1px solid #FF6A6A;
     padding: 15px 39px;
     font-size: 16px;
@@ -471,7 +464,7 @@ background-image: url(./img/accesouries.png);
 }
 
 .footer__subscribe-rightside {
-    margin-right: 230px;
+    margin-right: 325px;
     max-width: 557px;
     display: flex;
     flex-direction: column;
