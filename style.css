@@ -496,7 +496,7 @@ background-image: url(./img/accesouries.png);
     height: 100%;
     background: #E1E1E1;
     border: none;
-    opacity: 0;
+
     width: 256px;
     border-radius: 24.5px 0 0 24.5px;
     font-size: 14px;
@@ -513,7 +513,6 @@ background-image: url(./img/accesouries.png);
     background: #F16D7F;
     border: none;
     cursor: pointer;
-    opacity: 0;
     width: 100px;
     border-radius: 0 24.5px 24.5px 0;
     font-family: Lato;
